@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input Form</title>
+</head>
+<body style="background-color: white">
+<form action="Yettodo" method="post">
+    <h1>Dati Cliente:
+    </h1>
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome"><br><br>
+    <label for="cognome">Cognome:</label><br>
+    <input type="text" id="cognome" name="cognome"><br><br>
+    <label for="datanascita">Data di Nascita:</label><br>
+    <input type="date" id="datanascita" name="datanascita"><br><br>
+    <p>Indirizzo:</p>
+    <label for="City">Città:</label>
+    <input type="text" id="City" name="city">
+    <label for="provincia">Provincia:</label>
+    <input type="text" id="provincia" name="provincia">
+    <label for="Zip">Zip:</label>
+    <input type="number" id="Zip" name="Zip">
+    <label for="strada">Strada:</label>
+    <input type="text" id="strada" name="strada"><br><br>
+    <p>Genere:</p>
+    <input type="radio" id="Maschio" name="gender" value="Maschio">
+    <label for="Maschio">Maschio</label><br>
+    <input type="radio" id="Femmina" name="gender" value="Femmina">
+    <label for="Femmina">Femmina</label><br>
+    <input type="radio" id="Altro" name="gender" value="Altro">
+    <label for="Altro">Altro</label>
+    <br><br>
+    <label for="codid">Carta d'identità:</label><br>
+    <input type="number" id="codid" name="codid" min="1"><br><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="tel">Telefono:</label><br>
+    <input type="number" id="tel" name="tel" maxlength="20"><br><br>
+    <label for="webpage">Pagina Web:</label><br>
+    <input type="text" id="webpage" name="webpage"><br><br>
+    <input type="submit" value="Conferma">
+</form>
+</body>
+</html>
